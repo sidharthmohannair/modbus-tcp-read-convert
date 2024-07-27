@@ -44,6 +44,8 @@ cd modbus-tcp-read-convert
 
 ## Network Setup
 
+![Screenshort of Network Setup](/images/network_setup.png "Screenshort of Network Setup")
+
 ### Setting Up the Network Connection
 
 1. **Connect the Ethernet Cable**: Connect your computer to the Modbus TCP server using an Ethernet cable.
