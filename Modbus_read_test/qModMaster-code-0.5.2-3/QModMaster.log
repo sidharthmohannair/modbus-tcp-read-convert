@@ -1,0 +1,32 @@
+ERROR 2024-07-24T18:00:25.195 src/modbusadapter.cpp @ 134 Connection to IP :  "127.000.000.001" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:00:54.203 src/modbusadapter.cpp @ 134 Connection to IP :  "127.000.000.001" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:01:25.519 src/modbusadapter.cpp @ 134 Connection to IP :  "127.000.000.001" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:03:33.411 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:04:00.515 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:04:09.316 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ WARN 2024-07-24T18:14:35.338 src/mainwindow.cpp @ 184 Settings changes rejected  
+ WARN 2024-07-24T18:17:51.435 src/mainwindow.cpp @ 167 TCP settings changes rejected  
+ERROR 2024-07-24T18:19:36.096 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:38.205 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:47.824 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:49.905 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:50.564 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:51.075 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:51.904 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:19:55.968 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ WARN 2024-07-24T18:20:01.744 src/mainwindow.cpp @ 167 TCP settings changes rejected  
+ERROR 2024-07-24T18:20:11.825 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:20:19.739 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:56:39.236 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:56:47.527 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:56:48.904 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:57:34.095 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:57:35.562 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:57:41.334 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:58:55.161 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:58:59.009 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:59:11.844 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T18:59:57.969 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T19:13:03.050 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T19:13:04.357 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 
+ERROR 2024-07-24T19:42:20.255 src/modbusadapter.cpp @ 134 Connection to IP :  "192.168.5.55" : 502 ...failed. Could not connect to TCP port 

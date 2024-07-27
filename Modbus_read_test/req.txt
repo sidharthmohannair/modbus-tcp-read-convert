@@ -1,0 +1,7 @@
+python3 -m venv modbus_env
+source modbus_env/bin/activate
+
+pip install pymodbus
+
+pip show pymodbus
+
