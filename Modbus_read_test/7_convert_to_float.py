@@ -1,8 +1,8 @@
 import struct
 
 # Raw register values from QModMaster
-register1 = 18106
-register2 = 43520
+register1 = 18112
+register2 = 37888
 
 
 # Combine the two 16-bit registers into a single 32-bit integer
