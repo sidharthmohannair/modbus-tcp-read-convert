@@ -22,16 +22,16 @@ def convert_to_float(register1, register2):
     return float_value
 
 def main():
-    client = ModbusClient(host='192.168.5.55', port=502, unit_id=200, auto_open=True)
+    client = ModbusClient(host='192.168.5.55', port=502, unit_id=200, auto_open=False)
     try:
-        if not client.is_open:
+        print("Attempting to connect to the Modbus TCP server...")
+        if not client.open():
             raise ConnectionError("Failed to connect to the Modbus TCP server.")
         
         print("Successfully connected to the Modbus TCP server")
 
         # Adjust the addresses to zero-based (subtract 40001 from the starting address)
         address1 = 40378 - 40001
-        address2 = 40379 - 40001
 
         # Read both registers (assuming they are sequential)
         registers = read_modbus_registers(client, address1, 2)
@@ -48,7 +48,6 @@ def main():
         print(f"Error: {e}")
     finally:
         client.close()
-
 
 if __name__ == "__main__":
     main()
