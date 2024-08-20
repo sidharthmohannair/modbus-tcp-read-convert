@@ -45,12 +45,18 @@ def run_mb_poll():
                 if register1 is not None and register2 is not None:
                     float_value = convert_to_float(register1, register2)
                     print(f"The float value for registers {register1_addr} and {register2_addr} is: {float_value}")
+                else:
+                    print(f"Failed to read both registers {register1_addr} and {register2_addr}")
 
             except subprocess.TimeoutExpired:
                 process.kill()
                 print("Process killed after timeout.")
                 raise ConnectionError("The mbpoll command timed out. Check your connection and try again.")
             
+            finally:
+                process.stdout.close()
+                process.stderr.close()
+
     except Exception as e:
         raise ConnectionError(f"An error occurred while running mbpoll: {e}")
 
@@ -62,7 +68,7 @@ def convert_to_float(register1, register2):
 try:
     while True:
         run_mb_poll()
-        time.sleep(1)  # Optional sleep to avoid overwhelming the Modbus server
+        time.sleep(1)  # Adjust the sleep duration as needed to match your server's response time
 
 except (ConnectionError, ValueError) as e:
     print(f"Error: {e}")
