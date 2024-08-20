@@ -24,7 +24,7 @@ def convert_to_float(register1, register2):
 def main():
     client = ModbusClient(host='192.168.5.55', port=502, unit_id=200, auto_open=True)
     try:
-        if not client.is_open():
+        if not client.is_open:
             raise ConnectionError("Failed to connect to the Modbus TCP server.")
         
         print("Successfully connected to the Modbus TCP server")
@@ -48,6 +48,7 @@ def main():
         print(f"Error: {e}")
     finally:
         client.close()
+
 
 if __name__ == "__main__":
     main()
